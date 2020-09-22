@@ -1,0 +1,59 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:amazon="http://schemas.amazon.com/apk/res/android"
+3    xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="capacitor.android.plugins"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.READ_CALENDAR" />
+12-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:15:1-67
+12-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:15:18-65
+13    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+13-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:16:1-68
+13-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:16:18-66
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:17:1-76
+14-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:17:18-74
+15
+16    <application>
+16-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:1-14:15
+17        <receiver
+17-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:1-10:12
+18            android:name="nl.xservices.plugins.ShareChooserPendingIntent"
+18-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:11-72
+19            android:enabled="true" >
+19-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:73-95
+20            <intent-filter>
+20-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:7:3-9:19
+21                <action android:name="android.intent.action.SEND" />
+21-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:8:5-56
+21-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:8:13-54
+22            </intent-filter>
+23        </receiver>
+24
+25        <provider
+25-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:11:1-13:12
+26            android:name="nl.xservices.plugins.FileProvider"
+26-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:11:127-175
+27            android:authorities="${applicationId}.sharing.provider"
+27-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:11:11-66
+28            android:exported="false"
+28-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:11:67-91
+29            android:grantUriPermissions="true" >
+29-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:11:92-126
+30            <meta-data
+30-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:12:3-104
+31                android:name="android.support.FILE_PROVIDER_PATHS"
+31-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:12:14-64
+32                android:resource="@xml/sharing_paths" />
+32-->/Users/wenqisu/COMP0073_2019_WenqiSu/backups/Keto diet application/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:12:65-102
+33        </provider>
+34    </application>
+35
+36</manifest>
